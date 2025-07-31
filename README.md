@@ -1,69 +1,47 @@
-# React + TypeScript + Vite
+# 🧪 Treinando Git e GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório foi criado com o objetivo de praticar comandos do Git e o fluxo de versionamento com o GitHub, utilizando boas práticas e convenções adotadas em projetos reais.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 O que estou praticando:
 
-## Expanding the ESLint configuration
+- ✅ Criação e uso de **branches**
+- ✅ Commits utilizando o padrão **Conventional Commits**
+- ✅ Envio de alterações com `git push`
+- ✅ Abertura de **Pull Requests**
+- ✅ Simulação de fluxo de trabalho em equipe
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📁 Estrutura do repositório
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Cada branch pode conter uma pequena tarefa, funcionalidade ou exemplo. A branch `main` representa a base do projeto.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧾 Exemplo de Conventional Commits
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Tipo       | Descrição                           | Exemplo                                  |
+|------------|-------------------------------------|------------------------------------------|
+| `feat:`    | Nova funcionalidade                 | `feat: adiciona componente de login`     |
+| `fix:`     | Correção de bug                     | `fix: corrige erro de validação de email`|
+| `docs:`    | Alterações na documentação          | `docs: atualiza o README`                |
+| `refactor:`| Refatoração sem alterar a lógica    | `refactor: melhora estrutura do componente`|
+| `test:`    | Adição ou modificação de testes     | `test: adiciona testes para autenticação`|
+| `chore:`   | Outras tarefas (configs, scripts…)  | `chore: atualiza dependências do projeto`|
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🎯 Objetivo
+
+Melhorar minha familiaridade com o Git no dia a dia de um projeto, praticando um fluxo mais profissional de versionamento.
+
+---
+
+## 🚀 Tecnologias usadas
+
+- Git
+- GitHub
+
+---
